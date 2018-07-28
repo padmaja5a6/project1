@@ -1,0 +1,147 @@
+.main{
+  border: 3px solid purple;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+}
+h2,h4
+{
+  color:orange;
+}
+a{
+  color:black;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+.left{
+  border: 3px solid yellow;
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  font-size: 20px;
+  text-align: center;
+  background-color: lightyellow;
+}
+#name{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+.left img{
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid gold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right{
+  border: 3px solid gold;
+  padding: 2%;
+  margin: 2%;
+  width: 90%;
+  background-color: skyblue;
+}
+@media only screen and (min-width: 0px) and (max-width: 480px)
+{
+  .main{
+    border: 2px solid blue;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  h2,h4
+  {
+    color:orange;
+  }
+  a{
+    color:black;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  .left{
+    border: 2px solid indigo;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+  }
+  #name{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+  }
+  .table{
+    width: 90%;
+    overflow-x: auto;
+  }
+  .left img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .right{
+    border: 2px solid red;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    background-color: cyan;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+  .main{
+    border: 2px solid blue;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  h2,h4
+  {
+    color:orange;
+  }
+  a{
+    color:black;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  .left{
+    border: 2px solid indigo;
+    padding: 2%;
+    margin: 2%;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+  }
+  #name{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+  }
+  .table{
+    width: 90%;
+    overflow-x: auto;
+  }
+  .left img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .right{
+    border: 2px solid red;
+    padding: 2%;
+    margin: 2%;
+    width: 40%;
+    background-color: cyan;
+  }
+}

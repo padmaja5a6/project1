@@ -1,0 +1,54 @@
+
+{
+  "details":{
+  "image":"2.jpg",
+  "name":"Paddu",
+  "phoneno":"+91-9848382818",
+  "email":"padmajadolly9@gmail.com",
+  "address":"sitara colony,vijayawada"
+},
+"career":{
+  "info":"To persue a challenging carrer and to be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills"
+},
+"education":[{
+  "qualification":"B.Tech",
+  "institution":"MIC COLLEGE OF TECHNOLOGY",
+  "year":"2016-2020",
+  "percentage":"89%"
+},
+{
+  "qualification":"Intermediate",
+  "institution":"Narayana",
+  "year":"2014-2016",
+  "percentage":"96%"
+},
+{
+  "qualification":"SSC",
+  "institution":"Chegu vidyalayam",
+  "year":"2012",
+  "percentage":"92%"
+}
+],
+"skills":[{
+  "title":"programming language",
+  "info":["C,C++,Java,R,Python"]
+},
+{
+  "title":"databases",
+  "info":["oracle,SQL,mysql,tinydb"]
+},
+{
+  "title":"operating systems",
+  "info":["windows,linux,ubuntu,Dos"]
+}
+],
+"achievements":[{
+  "title":"award",
+  "info":["Best award in coding"]
+  },
+  {
+    "title":"sports",
+    "info":["first prize in shuttle"]
+  }
+]
+}
